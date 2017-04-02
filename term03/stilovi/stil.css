@@ -1,0 +1,46 @@
+    .offer {
+        background-color: gray;
+        width: 100%;
+        display: block;
+    }
+    
+    .offer figure {
+        margin: 0;
+        /*width: 30%;*/
+        display: inline;
+        float: left;
+    }
+    
+    .offer p {
+        margin: 0;
+        display: inline;
+        /*width: 70%;*/
+    }
+    
+    body {
+        width: 80%;
+        margin: 0 auto;
+    }
+    /*
+    #headpic {
+        width: 100%;
+    }
+    */
+    
+    footer {
+        background: #347800;
+        text-align: center;
+    }
+    
+    h1 {
+        text-align: center;
+    }
+    
+    header {
+        background-image: url("../slike/header.jpg");
+        background-size: 100%;
+    }
+    
+    form {
+        padding-top: 0.5em;
+    }

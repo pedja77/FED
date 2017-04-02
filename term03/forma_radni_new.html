@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8" />
+    <title>Proba formi</title>
+</head>
+
+<body>
+    <h1>Rad sa formama</h1>
+    <form method="POST" action="http://thezarichi.com/testbed/form-response.php" enctype="multipart/form-data">
+        <label for="nameFldId">Ime:</label>
+        <input id="nameFldId" type="text" name="ime" size="40" maxlength="35" placeholder="Unesite ime" list="imena" />
+        <br/>
+        <label for="passFldId">Lozinka:</label>
+        <input id="passFldId" type="password" name="lozinka" />
+        <br/>
+        <label for="emailFldId">Email:</label>
+        <input id="emailFldId" type="email" name="email" />
+        <br/>
+        <label for="bdFldId">Rođendan:</label>
+        <input id="bdFldId" type="date" name="rodjendan" />
+        <br/>
+        <label for="rFldId">Opseg:</label>
+        <input id="rFldId" type="range" name="opseg" />
+        <br/>
+        <label for="hFldId">Visina:</label>
+        <input id="hFldId" type="number" name="visina" />
+        <hr/> Narucite picu:
+        <br/>
+        <label for="chk1Id">Mala:</label>
+        <input id="chk1Id" type="radio" name="velicina" value="1" />
+        <label for="chk2Id">Srednja:</label>
+        <input id="chk2Id" type="radio" name="velicina" value="2" checked />
+        <label for="chk3Id">Velika:</label>
+        <input id="chk3Id" type="radio" name="velicina" value="3" />
+        <hr/> Prilozi:
+        <br/>
+        <label for="chk4Id">Masline:</label>
+        <input id="chk4Id" type="checkbox" name="prilozi[]" value="masline" />
+        <label for="chk5Id">Artičoke:</label>
+        <input id="chk5Id" type="checkbox" name="prilozi[]" value="artičoke" />
+        <label for="chk6Id">Mozzarela:</label>
+        <input id="chk6Id" type="checkbox" name="prilozi[]" value="Mozzarela" />
+        <br/> God. doba:
+        <select name="godoba" required>
+            <option value="">--- izaberite ---</option>
+            <option value="1">Proleće</option>
+            <option value="2">Leto</option>
+            <option value="3">Jesen</option>
+            <option value="4">Zima</option>
+        </select>
+        <br/> Tekst zona:
+        <textarea name="poruka"></textarea>
+        <br/> Slika:
+        <input type="file" name="photo" />
+        <br/>
+        <input type="submit" value="pošalji" />
+        <datalist id="imena">
+            <option value="Ana" />
+            <option value="Vanja" />
+            <option value="Tanja" />
+            <option value="Sanja" />
+            <option value="Davor" />
+            <option value="Marko" />
+            <option value="Žarko" />
+        </datalist>
+    </form>
+</body>
+
+</html>
