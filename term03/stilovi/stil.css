@@ -1,18 +1,25 @@
     .offer {
-        background-color: gray;
+        border: solid 2px gray;
         width: 100%;
         display: block;
+        min-height: 250px;
+        margin: 5px;
     }
     
-    .offer figure {
-        margin: 0;
-        /*width: 30%;*/
-        display: inline;
+    .offers {
+        width: 100%;
+    }
+    
+    .price {
+        color: blue;
+    }
+    
+    .textWrap {
         float: left;
     }
     
     .offer p {
-        margin: 0;
+        padding-top: 10px;
         display: inline;
         /*width: 70%;*/
     }
@@ -37,10 +44,17 @@
     }
     
     header {
-        background-image: url("../slike/header.jpg");
-        background-size: 100%;
+        text-align: center;
     }
     
     form {
         padding-top: 0.5em;
+    }
+    
+    section {
+        display: block;
+    }
+    
+    .somepics {
+        margin: 10px 10px;
     }
