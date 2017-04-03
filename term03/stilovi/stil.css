@@ -12,6 +12,8 @@
     
     .price {
         color: blue;
+        float: right;
+        float: bottom;
     }
     
     .textWrap {
