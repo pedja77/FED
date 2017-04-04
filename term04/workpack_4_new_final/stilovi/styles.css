@@ -1,0 +1,127 @@
+/*
+    CSS stilovi za nas sajt
+*/
+
+@import url('https://fonts.googleapis.com/css?family=Playfair+Display');
+
+body{
+	font-family: "Playfair Display", TimesNewRoman, serif;
+	background: #cfcfcf;
+	color: #363636;
+	margin:0;
+}
+
+h1,h2,h3{
+	text-align:center;
+	color: #FF2233;
+}
+
+a{
+	color: #FF2233; /* rgb(255,34,54)*/
+}
+
+header{
+	background: #797979;
+}
+
+header h1{
+	margin:0;
+}
+
+main{
+	width:80%;
+	background: white;
+	margin: 0 auto;
+	
+}
+
+section{
+	position:relative;
+}
+
+section>h2{
+	background:#ffcc00;
+	margin: 0;
+}
+
+section>img{
+	width: 100%;
+}
+
+nav ul{
+	display:table-row;
+	margin:0;
+	padding:0;
+}
+nav ul li{
+	display:table-cell;
+	padding-left: .5em;
+	padding-right: .5em;
+	border-right: 1px solid #FF2233; 
+	line-height: 30px;
+}
+
+nav ul li a{
+	font-size: smaller;
+	text-decoration:none;
+}
+
+nav ul li:hover{
+	background: #FF2233;
+	border-right: 1px solid white; 
+}
+
+nav ul li:hover a{
+	color:white;
+}
+
+
+.holder{
+	position:relative;
+}
+.proba{
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%,-50%);
+	width: 35%;
+	height: 20%;
+	background: #FF2233;
+	position: absolute;
+	text-align: center;
+}
+
+.row{
+	text-align:center;
+}
+
+.row>div{
+	vertical-align:top;
+	margin-top: 10px;
+	display:inline-block;
+	box-sizing: border-box;
+	border: 1px solid #FF2233;
+	width: 31%;
+}
+
+.box{
+	display:inline-block;
+	margin: .5em;
+	width:200px;
+	height: 200px;
+	border: 1px solid #FF2233;
+	box-shadow: 3px 3px 10px #393939;
+	overflow: hidden;
+}
+
+.box>img{
+	height:100%;
+	
+}
+
+.rounded-rect{
+	border-radius: 15px;
+}
+
+.circle{
+	border-radius: 50%;
+}

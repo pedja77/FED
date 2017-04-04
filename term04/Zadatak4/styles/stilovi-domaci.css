@@ -1,0 +1,124 @@
+html {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: Verdana, Arial, sans-serif;
+    margin-top: 0;
+    width: 100%;
+}
+
+main {
+    width: 65%;
+    margin: 0 auto;
+}
+
+h1,
+h2,
+h3,
+h4 {
+    text-align: center;
+    color: gray;
+    margin: 0;
+}
+
+header {
+    background: #ffd800;
+}
+
+
+/* dopisati stil za main */
+
+section {
+    /* dopuniti */
+    background: #e8d273;
+    padding: 1em 0;
+    margin: 1em 0;
+    width: 100%;
+    display: block;
+    min-height: 250px;
+    position: relative;
+}
+
+footer {
+    line-height: 3em;
+    font-size: 1em;
+    background: #FF0000;
+    text-align: center;
+}
+
+p {
+    width: 95%;
+    text-indent: 2em;
+    text-align: justify;
+    margin: 1em auto;
+    padding: 0 0.3em;
+}
+
+
+/* class selektori */
+
+.box {
+    background: red;
+    width: 200px;
+    height: 150px;
+    font-size: 1.5em;
+    text-align: center;
+}
+
+.hcenter {
+    margin: 0 auto;
+}
+
+.left {
+    display: inline-block;
+    float: left;
+    margin-right: 0.5em;
+}
+
+.right {
+    display: inline-block;
+    float: right;
+    margin-left: 0.5em;
+}
+
+.centered {
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    position: absolute;
+}
+
+.bottomright {
+    top: 40%;
+    left: 74%;
+    position: absolute;
+}
+
+.item {
+    background: #8fd8e2;
+    width: 125px;
+    height: 65px;
+    border: 1px solid yellow;
+}
+
+.v1 {
+    /*display: inline-block;  */
+    float: left;
+}
+
+.v2 {
+    display: inline-block;
+}
+
+.bkg {
+    background: url('../images/hex-bkg-pattern.png');
+}
+
+.bkg1 {
+    background: #cfcfcf url('../images/wave-bkg-pattern.png');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: local;
+}
