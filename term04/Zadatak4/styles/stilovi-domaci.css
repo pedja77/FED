@@ -91,9 +91,9 @@ p {
 }
 
 .bottomright {
-    top: 40%;
-    left: 74%;
     position: absolute;
+    bottom: 15px;
+    right: 20px;
 }
 
 .item {
